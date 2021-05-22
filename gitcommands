@@ -1,0 +1,6 @@
+# This is a set of helpful git commands
+
+
+# Add new remote repository
+
+git remote add learning https://github.com/steinermite/
