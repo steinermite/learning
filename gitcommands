@@ -1,6 +1,47 @@
-# This is a set of helpful git commands
+************************************
+* Helpful GIT Commands             *
+************************************
+
+Creating a repository from scratch
+----------------------------------
 
 
-# Add new remote repository
+# Step 1: Create the test project
 
-git remote add learning https://github.com/steinermite/
+# Step 2: Initiatise the repository
+git init
+
+# Step 3: Write Code
+
+# Step 4: Add the files
+git add .
+
+# Step 5: Commit the repository
+git commit -m "first commit"
+
+# Step 6: Create the main branch
+git branch -M main
+
+# Step 7: Log into GitHub and create the remote repository
+
+# Step 8: Create the main branch
+git branch -M main
+
+Step 9: Remove add the branch
+git remote add origin https://github.com/steinermite/learning.git
+
+Step 10: Push the repository
+git push -u origin main
+
+
+
+
+
+
+# Push an existing repository from the command line
+
+git remote add origin https://github.com/steinermite/learning.git
+git branch -M main
+git push -u origin main
+
+
